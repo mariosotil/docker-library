@@ -2,7 +2,7 @@
 
 **IMPORTANT: this container exposes the Docker daemon socket to its users. To learn more about that, read [The Dangers of Docker.sock](https://raesene.github.io/blog/2016/03/06/The-Dangers-Of-Docker.sock/). This is provided "AS IS". There's no guarantee.**
 
-You can build the container cloning this repo, and running:
+You can build the container cloning this folder, and running:
 
     $ docker build -t your-account/docker-builder .
 
