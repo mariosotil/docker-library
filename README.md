@@ -12,7 +12,7 @@ You can run it with this command:
 
     $ docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -it your-account/docker-builder
 
-A bash prompt will be opened. You can build an image (in this case, a GoLang compiler, using a Dockerfile from an official Docker repo) using this command:
+A bash prompt will be open. You can build an image (in this case, a GoLang compiler, using a Dockerfile from an official Docker repo) using this command:
 
     bash4.3#  /root/build.sh local/golang https://github.com/docker-library/golang.git 1.7
 
